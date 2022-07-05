@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pizza Store</title>
+
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="navbar">
+        <span class="navbar-item">
+            <a href="../Home/home.html"> Home </a>
+        </span> 
+        
+        <span class="navbar-item active">
+            <a href="reservation.html"> Reservation </a>
+        </span>
+
+        <span class="navbar-item"> 
+            <a href="../Order/order.html"> Order </a> 
+        </span>
+        
+        <span class="navbar-item"> 
+            <a href="../Contact/contact.html"> Contact </a> 
+        </span> 
+    </div>
+
+    <div id="outlet">
+        <i class="fa fa-cutlery"></i><span style="padding-left: 20px;">Choose an Outlet</span>
+
+        <div>
+            <button class="btn" data-id="1" onclick="switchplace(1)"><i class="fa fa-map-marker"  style="font-size: 30px;"></i><span>Saltlake</span></button><br><br>
+            <button class="btn" data-id="2" onclick="switchplace(2)"><i class="fa fa-map-marker"   style="font-size: 30px;"></i><span>Park Street</span></button><br><br>
+            <button class="btn" data-id="3" onclick="switchplace(3)"><i class="fa fa-map-marker"   style="font-size: 30px;"></i><span>Dumdum</span></button>
+        </div>
+    </div>
+
+    <div  id="book">
+
+        <h2 style="text-align: center;text-shadow: 2px 2px 3px  black;"><i class="fa fa-hand-o-right" style="padding-right: 35px;"></i>Book a Table</h2>
+
+        <div>
+            <i class="fa fa-user icon"></i><input type="text" id="name" placeholder="Name"><br><br>
+
+            <i class="fa fa-calendar icon"></i><input type="date" id="date" placeholder="Date"><br><br>
+
+            <i class="fa fa-clock-o icon"></i><input type="number" placeholder="HH" id="hour" style="width: 100px;text-align: center;">
+            <span style="font-size: 40px;padding: 15px;">:</span>
+            <input type="number" placeholder="MM" id="minute" style="width: 100px;text-align: center;"><br><br>
+
+            <i class="fa fa-users icon"></i><input type="number" id="pcount" placeholder="Person Count"><br><br>
+        </div>
+
+        <h4 id="location"><i class="fa fa-map-marker"></i>Park Street</h4>
+
+        <button onclick="show()" id="submit"><i class="fa fa-check" style="font-size: 30px;padding-right: 13px;"></i>Submit</button>
+
+    </div>
+    
+    <div id="footer">
+        <p style="left: 20px;">Developed by Phoeni_X Learning<span style="position: absolute;right: 20px;">All rights reserved &copy; Phoeni_X Learning</span></p>
+    </div>
+
+</body>
+<script src="reservation.js"></script>
+</html>

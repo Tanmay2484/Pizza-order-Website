@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pizza Store</title>
+
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="../shared.css">
+</head>
+<body onload="init()">
+    <div id="navbar">
+        <span class="navbar-item">
+            <a href="../Home/home.html"> Home </a>
+        </span> 
+        
+        <span class="navbar-item">
+            <a href="../Reservation/reservation.html"> Reservation </a>
+        </span>
+
+        <span class="navbar-item active"> 
+            <a href="order.html"> Order </a> 
+        </span>
+        
+        <span class="navbar-item"> 
+            <a href="../Contact/contact.html"> Contact </a> 
+        </span> 
+    </div>
+
+    <div id="menu">
+
+        <table style="width: 100%; padding: 20px;" id="menubar">
+
+            <!-- <tr>
+                <td style="width: 20%;"><img src="../Asset/Veggie Paradise.jpg" class="menu_image"></td>
+                <td style="width: 55%;"><p class="menu_name">Veggie Paradise<span class="menu_price">₹250</span></p>
+                <p class="menu_description">A delightful and delicious pizza for vegans</p></td>
+
+                <td style="width: 25%;text-align: center;">
+                    <p>
+                        <button class="box">-</button>
+                        <span id="item1" class="counter">0</span>
+                        <button class="box">+</button>
+                    </p>
+                    <button class="menu_add">ADD</button></td>
+            </tr> -->
+
+        </table>
+    </div>
+
+    <div id="cart" class="hide" style="padding: 20px;">
+        <div class="total-amount">
+            <p >Total Amount: <span id="amountid"></span> </p>    
+        </div> <hr><br> 
+        <table style="width: 100%;" id="cartmenu">
+            <!-- <tr>
+                <td style="width: 20%;"><img src="../Asset/Veggie Paradise.jpg" class="menu_image"></td>
+                <td style="width: 65%;"><p class="menu_name">Veggie Paradise<span class="menu_price">₹250</span></p>
+                <p class="menu_description">A delightful and delicious pizza for vegans</p></td>
+
+                <td style="width: 15%;text-align: center;">
+                    <p>
+                        <button class="box">-</button>
+                        <span id="item1" class="counter">0</span>
+                        <button class="box">+</button>
+                    </p>
+                    <button class="menu_add">ADD</button></td>
+            </tr> -->
+        </table>
+    </div>
+    
+    <div id="footer">
+        <p style="left: 20px;">Developed by Phoeni_X Learning<span style="position: absolute;right: 20px;">All rights reserved &copy; Phoeni_X Learning</span></p>
+    </div>
+
+    <script src="order.js"></script>
+</body>
+</html>

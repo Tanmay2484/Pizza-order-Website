@@ -1,0 +1,155 @@
+body{
+    background-image: url("../Asset/order1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+html{
+    height: auto;
+}
+
+#menu{
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    width: 50%;
+    height: 65%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 35px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(66, 41, 77);
+  }
+
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+
+.menu_image{
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.menu_add{
+    width: 40%;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: none;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px white;
+}
+
+.menu_name{
+    font-size: 35px;
+    padding-left: 10px;
+    color: white;
+    text-shadow: 2px 2px 3px red;
+}
+
+.menu_description{
+    font-size: 22px;
+    padding-left: 25px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.menu_price{
+    font-size: 35px;
+    float: right;
+    color: white;
+    text-shadow: 2px 2px 3px blue;
+}
+
+.box{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    transition: all 0.3s;
+
+}
+
+.box:hover{
+    box-shadow: 0px 0px 20px white;
+}
+
+.counter{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+#cart{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    width: 40%;
+    height: 60%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 35px;
+    /* visibility: hidden; */
+    /* visibility: hidden; */
+}
+.cartbox{
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px;
+    height: 40px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px white;
+
+}
+
+.show{
+    visibility: visible;
+}
+.hide{
+    visibility: hidden;
+}
+.total-amount{
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 32px;
+    font-weight: 600;
+    color: orange;
+    text-shadow: 3px 3px 10px blue;
+}
+.total-amount span{
+    
+    padding-left: 20px;
+}

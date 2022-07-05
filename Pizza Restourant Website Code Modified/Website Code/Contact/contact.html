@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div id="navbar" >
+        <span class="navbar-item">
+            <a href="../Home/home.html"> Home </a>
+        </span> 
+        
+        <span class="navbar-item">
+            <a href="../Reservation/reservation.html"> Reservation </a>
+        </span>
+
+        <span class="navbar-item"> 
+            <a href="../Order/order.html"> Order </a> 
+        </span>
+        
+        <span class="navbar-item active"> 
+            <a href="contact.html"> Contact </a> 
+        </span> 
+    </div>
+
+    <!-- Contact Form -->
+    <div id="contact-region">
+        <div id="contact-form">
+            
+            <p id="form-title" > Send Us a Message </p>
+           
+            <input type="text" id="pname" value="" placeholder = "Your Name"> 
+            <br>
+           
+            <input type="email" id="email" value="" placeholder = "Your Email">
+            <br>
+
+            <textarea cols="30" id="cmassage" rows="2" placeholder="Write Message"></textarea>
+            <br>
+
+            <button onclick="msg()" id="submit"> Submit </button>
+        </div>
+    </div>
+
+    <div id="contact">
+        <i class="fa fa-phone-square fa-2x"></i><span style="position: relative;bottom: 10px;left: 20px;">8910855367 / 7980278022</span><br><br>
+        <i class="fa fa-envelope-open fa-2x"></i><span style="position: relative;bottom: 10px;left: 20px;">phoeni.x.learning.2021@gmail.com</span><br><br><hr>
+        <i class="fa fa-cutlery fa-2x"></i><span style="position: relative;bottom: 10px;left: 20px;">Our Outlets</span>
+
+        <div style="padding-left: 75px;padding-top: 50px;">
+            <i class="fa fa-map-marker" style="font-size: 43px;"></i><span style="position: relative;bottom: 7px;left: 15px;">Saltlake - 12/1 Abc Road</span><br><br>
+            <i class="fa fa-map-marker" style="font-size: 43px;"></i><span style="position: relative;bottom: 7px;left: 15px;">Park Street - 1/12 Cba Road</span>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <p style="left: 20px;">Developed by Phoeni_X Learning<span style="position: absolute;right: 20px;">All rights reserved &copy; Phoeni_X Learning</span></p>
+    </div>
+
+</body>
+<script src="contact.js"></script>
+</html>

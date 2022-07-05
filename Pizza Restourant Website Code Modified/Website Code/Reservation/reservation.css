@@ -1,0 +1,134 @@
+body{
+    background-image: url("../Asset/reservation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 99%;
+}
+html{
+    height: 100%;
+}
+
+#book{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 35px;
+}
+
+#outlet{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, #8e0e00dd, #1f1c18dd);
+    width: 30%;
+    height: 58%;
+    padding: 25px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 90px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 3px  black;
+}
+
+#outlet div button{
+    width: 350px;
+    padding: 20px;
+    font-size: 28px;
+    border-radius: 35px;
+    background: linear-gradient(135deg,#FF3C83,#FF9F4A);
+    color: whitesmoke;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+}
+
+#outlet div button:hover{
+    letter-spacing: 5px;
+    background: linear-gradient(315deg,#FF3C83,#FF9F4A);
+}
+
+#outlet div button span{
+    padding-left: 20px;
+}
+
+#outlet div{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#book{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    background: linear-gradient(135deg, #097eebcc, #e60e44aa,#FF9F4Aaa);
+    height: 65%;
+    width: 30%;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#book div{
+    padding-top: 40px;
+    text-align: center;
+}
+
+#book div input{
+    width: 50%;
+    padding: 10px;
+    border-radius: 35px;
+    font-size: 22px;
+    text-align: left;
+    background: linear-gradient(270deg,#00bf8f, #001510ee);
+    color: white;
+    outline: none;
+    border-width: 0;
+}
+
+::placeholder{
+    color: white;
+    font-size: 25px;
+}
+
+#submit{
+    position: absolute;
+    right: 5%;
+    width: 40%;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 35px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    outline: none;
+    color: white;
+    border: 1px solid blueviolet;
+    text-shadow: 2px 2px 3px rgb(247, 122, 105);
+    box-shadow: 2px 2px 3px black;
+    background: linear-gradient(135deg, #00c3ff, #ffff1c);
+    color: black;
+    cursor: pointer;
+}
+
+.icon{
+    padding-right: 15px;
+    color: whitesmoke;
+}
+
+#location{
+    position: absolute;
+    left: 5%;
+    bottom: 2%;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 3px;
+    color: blanchedalmond;
+    font-family: cursive;
+}

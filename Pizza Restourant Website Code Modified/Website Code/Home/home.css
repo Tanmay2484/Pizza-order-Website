@@ -1,0 +1,80 @@
+body{
+    background-image: url("../Asset/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 99%;
+}
+html{
+    height: 100%;
+}
+
+#title-region{
+    float: right;
+    margin-top: 15vh;
+    margin-right: 8vw;
+    width : 600px;
+}
+
+#title-text{
+    color: aliceblue;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300px;
+    position: relative;
+    left: 60px;
+    letter-spacing: 8px;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    text-align: center;
+}
+
+#underline{
+    border-width: 3px 0 0 0;
+    border-style: solid;
+    border-color: whitesmoke;
+    width: 620px;
+    position: relative;
+    left: 80px;
+}
+
+#tag-text{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: whitesmoke;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px blue;
+}
+
+#quick-links{
+    position: absolute;
+    top: 47vh;
+    left: 70vw;
+    font-size: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.5;
+}
+
+#quick-links a{
+    padding: 5px;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: whitesmoke;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 10px rgb(194, 32, 11);
+}
+
+#quick-links div{
+    color: white;
+    margin-top: 80px;
+    margin-left: -125px;
+    text-shadow: 3px 3px 10px red;
+    font-weight: 500;
+}

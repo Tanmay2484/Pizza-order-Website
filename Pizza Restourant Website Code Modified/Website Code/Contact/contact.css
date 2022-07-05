@@ -1,0 +1,109 @@
+body{
+    background-image: url("../Asset/contact.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95%;
+}
+html{
+    height: 100%;
+}
+
+#contact-region{
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 18%;
+    left: 12%;
+    padding: 30px;
+    box-shadow: 8px 8px 10px black ;
+    width: 500px;
+    height: 540px;
+}
+
+#contact-form{
+    font-size: 22px;
+    letter-spacing: 2.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 10px 10px 10px red;
+    text-align: center;
+}
+
+#form-title{
+    color: whitesmoke;
+    font-size: 48px;
+    padding: 15px;
+    text-shadow: 1px 1px 2px yellow;
+    text-decoration: underline;
+    
+}
+
+#contact-form input{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 20px;
+    border-width: 0px;
+    border-radius: 35px;
+    padding: 5px 15px 5px 15px;
+    background: transparent;
+    height: 50px;
+    width: 300px;
+    color: white;
+    transition: width 0.5s;
+    font-family: cursive;
+    letter-spacing: 2px;
+    
+}
+
+
+#contact-form input:focus, #contact-form textarea:focus{
+    outline: none;
+    width: 350px;
+    border: 3px solid white;
+    background: rgba(0,0,0,0.7);
+}
+
+
+
+#contact-form textarea{
+    background: transparent;
+    font-size: 20px;
+    border-width: 0px;
+    border-radius: 35px;
+    text-align: center;
+    width: 300px;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    font-family: cursive;
+    letter-spacing: 2px;
+    transition: width 0.5s;
+    margin-bottom: 15px;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.9;
+}
+
+#submit{
+    font-size: 28px;
+    padding: 5px;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 5px tomato;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 35px;
+    padding: 5px 15px 5px 15px;
+    color: black;
+}
+
+#contact{
+    position: absolute;
+    top: 25vh;
+    left: 55vw;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px black;
+    font-family: sans-serif;
+}
+
